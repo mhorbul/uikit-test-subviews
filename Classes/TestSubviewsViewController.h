@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TestSubviewsViewController : UIViewController {
-
+    IBOutlet UINavigationController *navController;
 }
 
 @end
