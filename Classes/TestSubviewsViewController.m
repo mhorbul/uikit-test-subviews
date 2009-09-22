@@ -30,13 +30,13 @@
  */
 
 
-
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	NSLog(@"main y: %f, h: %f", self.view.frame.origin.y, self.view.frame.size.height);
+	NSLog(@"navController y: %f, h: %f", navController.view.frame.origin.y, navController.view.frame.size.height);	
+	[self.view addSubview:navController.view];
 }
-*/
 
 
 /*
